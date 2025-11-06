@@ -1,0 +1,22 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* Classes */
+
+.navbar {
+    background-color: whitesmoke;
+}
+/* IDs */
+
+#header_img {
+    background-image: url(../images/header_img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#header {
+    width: 100%
+}
