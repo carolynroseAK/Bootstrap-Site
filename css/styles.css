@@ -38,6 +38,12 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+#aurora {
+    background-image: url(../images/northern-lights-aurora-panorama-sun-1118.jpg);
+    background-size: cover;
+    background-position: center;
+}
 @media (min-width: 1024px) {
     #panel_bg {
     width: 50%
