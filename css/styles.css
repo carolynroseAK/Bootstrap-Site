@@ -1,22 +1,45 @@
 body {
     background-color: whitesmoke;
-    color: black;
+    color: rgb(3, 7, 80);
     font-family: "Fira Sans", sans-serif;
 }
 
 /* Classes */
 
 .navbar {
-    background-color: whitesmoke;
+    background-color: rgb(244, 246, 248);
+    font-size: larger;
+    font-display: auto;
 }
 /* IDs */
 
 #header_img {
-    background-image: url(../images/header_img.png);
+    background-image: url(../images/AKMtnsLogo9.png);
     background-size: cover;
     background-position: center;
 }
 
 #header {
-    width: 100%
+    width: 50%;
+    height: 100%;
+}
+#welcome {
+    background-image: url(../images/VisitorsCtr.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#tours {
+    background-image: url(../images/Alaska-GettyImages-1168030180.png);
+    background-size: cover;
+    background-position: center;
+}
+#restaurants {
+    background-image: url(../images/gbh-shrimp.png);
+    background-size: cover;
+    background-position: center;
+}
+@media (min-width: 1024px) {
+    #panel_bg {
+    width: 50%
+}
 }
